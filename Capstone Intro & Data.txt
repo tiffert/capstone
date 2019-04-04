@@ -1,0 +1,64 @@
+
+
+Introduction:
+
+As of April 2019, Toronto and Los Angeles are the largest cities in
+North America where the recreational trade in marijuana is legal.  They
+are both global cities rich in ethnic and socio-economic diversity, and
+anchor countries with strong cultural affinities.
+
+Although the regulated sale of marijuana for medical purposes has been
+legal in Los Angeles since 1996, licensed dispensaries for recreational
+consumers were not legalized until 2018, after which their number
+exploded around the city.  In addition, a great many unlicensed
+dispensaries operate outside of the law.
+
+Meanwhile medical marijuana sold through licensed clinics and government
+stores has been legal in Canada since 2001. In 2018, Canada legalized
+the use of recreational marijuana, and in April 2019 Ontario became the
+first Canadian province to legalize private dispensaries subject to
+licensing. The number of licensed private dispensaries is currently
+small, but expected to grow rapidly.
+
+Setting aside the disparate regulatory regimes governing licensure in
+both jurisdictions, which is beyond the scope of this investigation,
+this study asks what the experience of Los Angeles can tell us about how
+the licensed marijuana trade may develop in Toronto.  How are marijuana
+dispensaries distributed across Los Angeles, and what factors are
+correlated with that distribution?  What role, if any, do the population
+density, demographics, and socio-economic profile of a neighborhood
+play?  Based on these findings, where in Toronto can we expect licensed
+dispensaries to open?
+
+The target audiences for this study are policymakers, entrepreneurs and 
+academics who wish to understand the dynamics underlying the growth in
+licensed marijuana retail establishments. 
+
+
+
+Data Description:
+
+To answer these questions, this study will draw on the following data
+sets:
+
+Government OpenData Sets:
+
+Comprehensive 2016 Canadian Census data for Toronto wards 
+Comprehensive 2010 United States Census for Los Angeles neighborhoods 
+GeoJson files delimiting the wards/neighborhoods of Toronto and Los Angeles 
+Marijuana business registration records from the city of Los Angeles
+
+Foursquare API:
+
+Foursquare has assigned marijuana dispensaries a special categoryID, and
+I will query the API for results from each ward/neighborhood.  Also, I will
+query what other businesses are clustered in the immediate vicinity of
+dispensaries to search for patterns.
+
+
+
+Briefly, the city of Toronto is divided into 25 wards, with a total area
+of 630.21 sq. km, and a total population of approximately 2.7 million
+people.  The city of Los Angeles is divided into 97 neighborhoods, with
+a total area of 1302.15 sq. km., and a total population of approximately
+4 million people.
